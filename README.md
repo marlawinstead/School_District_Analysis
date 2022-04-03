@@ -10,6 +10,7 @@ Results
 
 
 How is the district summary affected?
+When removing 9th grade students from the dataset, 
 
 How is the school summary affected?
 
@@ -17,7 +18,7 @@ Removing the 9th grade students from the dataset dropped the overall passing per
 
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-Thomas High School was initially ranked 2nd place in the district based on standardized test scores. After adjusting the dataset to eliminate the 9th grade scores, Thomas High School is shown as ranking 8th.
+Thomas High School was initially ranked 2nd place in the district based on standardized test scores. After adjusting the dataset to eliminate the 9th grade scores, Thomas High School is still shown as ranking 2nd. 
 
 How does replacing the ninth-grade scores affect the following:
 
@@ -28,4 +29,6 @@ How does replacing the ninth-grade scores affect the following:
 -Scores by school size
 
 -Scores by school type
+
+Summary
 
