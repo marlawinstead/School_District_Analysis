@@ -38,15 +38,19 @@ Refactored code-
 How does replacing the ninth-grade scores affect the following:
 
 -Math and reading scores by grade
+
 Based on the results displayed, we can see that there is very little impact on the dataframe. The only difference is that the Thomas High School 9th graders are shown as NaN, instead of having an actual value.
 
 -Scores by school spending
+
 There is a slight change in the scores based on spending. In the $630-$644 spending range per student, we see a slight decrease. This is to be expected, as this is the group the Thomas High School is part of.
 
 -Scores by school size
+
 There scores for the medium size schools have changed slightly, less than about 1%. It is expected that this value would change as Thomas High School is considered to be a medium sized school.
 
 -Scores by school type
+
 There are changes made to the charter school section of the dataset, as Thomas High School is categorized as a charter school. The change is once again less than 1%. The other school types have been unaffected.
 
 Summary
