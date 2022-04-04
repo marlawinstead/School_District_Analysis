@@ -10,19 +10,38 @@ Results
 
 
 How is the district summary affected?
-When removing 9th grade students from the dataset, 
+
+When we refactor the code, there are a total of 461 9th graders whose testing scores become null data. Not much of a difference is made, as this is 461 students’ test scores of an over 39,000 student dataset. The 9th graders from Thomas High School make up just over 1% of the entire student population. The result is shown below in both the original and refactored code.
+
+Original code-
+
+Refactored code-
 
 How is the school summary affected?
 
-Removing the 9th grade students from the dataset dropped the overall passing percentage by 26%. The original analysis was 91%, whereas the adjusted analysis shows 65%, as demonstrated below.
+The school is affected very little when the 9th grade students are not taken into account, similar to how to district was. As we can see from the below results, the test scores all changed by less than 1%.
+
+Original code-
+
+Refactored code-
 
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-Thomas High School was initially ranked 2nd place in the district based on standardized test scores. After adjusting the dataset to eliminate the 9th grade scores, Thomas High School is still shown as ranking 2nd. 
+The ranking is unaffected when running the refactored code. When the code is rerun, there is an impact made to the math, reading and overall test scores. However, the decrease is not enough to impact the rankings. Thomas High School ranks 2nd both times the code is run, regardless of the null data from the 9th graders.
+
+Original code-
+
+Refactored code-
 
 How does replacing the ninth-grade scores affect the following:
 
 -Math and reading scores by grade
+Based on the results displayed, we can see that there is very little impact on the dataframe. The only difference is that the Thomas High School 9th graders are shown as NaN, instead of having an actual value.
+
+Original code-
+
+Refactored code-
+
 
 -Scores by school spending
 
