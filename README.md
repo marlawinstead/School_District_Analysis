@@ -56,7 +56,10 @@ There are changes made to the charter school section of the dataset, as Thomas H
 Summary
 
 School Summary- Thomas High School test scores are affected by less than 1% when removing the 9th graders test scores.
+
 School Ranking- there were no changes made to the school ranking when removing the Thomas High School 9th graders.
+
 Scores by Size- the only change made was for the medium size schools, and the percentage change is less than 1%.
+
 Scores by School Type- the only change made was for Charter Schools, and the percentage change is less than 1%.
 
